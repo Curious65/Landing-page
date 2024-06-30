@@ -1,0 +1,81 @@
+*{
+    padding :0px;
+    margin: 0px;
+}
+header{
+    background-image: url(background\ img.jpg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+background-position: center;
+}
+.main{
+    max-width: 1100px;
+    margin:auto;
+    
+
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    border: 1px solid transparent;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    display:block;
+    padding: 5px;
+
+
+}
+ul li a:hover{
+    background-color: rgb(239, 229, 229);
+    color: rgb(17, 16, 16);
+    transform: 0.6s ease;
+}
+
+.active{
+    background-color: rgb(228, 224, 224);
+    color:black
+}
+.logo img{
+    margin-top: 1px;
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.center_text{
+    margin-top: 250px;
+    margin-left: 530px; 
+}
+h1{
+    color: rgba(15, 15, 16, 0.892);
+}
+#bt1{
+    border: 1px solid rgb(250, 238, 250);
+    color: rgba(53, 42, 148, 0.781);
+    padding: 5px;
+    text-decoration: none;
+}
+#bt2{
+    border: 1px solid rgb(241, 239, 241);
+    color: rgb(64, 35, 108);
+    padding: 5px;
+    text-decoration: none;
+}
+#bt1:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+
+    
+}
+#bt2:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(78, 30, 124);
+    transition: 0.6s ease;
+}
